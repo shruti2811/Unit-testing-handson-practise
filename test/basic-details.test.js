@@ -6,7 +6,7 @@ import chromium from "chrome-aws-lambda";
 
 describe('Basic details',() => { 
   
-  //Shruti Test
+  //Shruti Testing
   // Write test cases inside this block
   // refer basic-details.js files
   /*const el = await fixture(html`
