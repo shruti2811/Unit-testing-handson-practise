@@ -70,4 +70,13 @@ it('should return the correct error message', () => {
   const errorMessage = getErrorMessage();
   expect(errorMessage.getMessage()).to.equal('Type is a required field');
 });
+
+function getAmountMessage() {
+  return { getMessage: () => 'Amount is a required field' };
+}
+it('should return the correct amount message', () => {
+const errorMessage = getAmountMessage();
+expect(errorMessage.getMessage()).to.equal('Amount is a required field');
+});
+
 });
